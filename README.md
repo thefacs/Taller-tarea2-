@@ -1,6 +1,6 @@
 #  Taller-Tarea2: Protocolo IRC en Docker
 
-Este proyecto implementa una comunicación IRC (Internet Relay Chat) completamente contenida en Docker, utilizando **InspIRCd** como servidor IRC y **irssi** como cliente. Fue desarrollado como parte de un trabajo académico para comprender el funcionamiento del protocolo IRC y cómo interactúan sus componentes.
+Este proyecto implementa una comunicación IRC (Internet Relay Chat) completamente contenida en Docker, utilizando **InspIRCd** como servidor IRC y **irssi** como cliente.
 
 ---
 
