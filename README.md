@@ -11,7 +11,6 @@ Este proyecto implementa una comunicación IRC (Internet Relay Chat) completamen
 - [Instalación del servidor IRC](#instalación-del-servidor-irc)
 - [Instalación y uso del cliente IRC](#instalación-y-uso-del-cliente-irc)
 - [Conexión Cliente-Servidor](#conexión-cliente-servidor)
-- [Estado del proyecto](#estado-del-proyecto)
 - [Autores](#autores)
 
 ---
