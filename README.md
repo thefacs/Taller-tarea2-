@@ -1,10 +1,10 @@
-# 🧪 Taller-Tarea2: Protocolo IRC en Docker
+#  Taller-Tarea2: Protocolo IRC en Docker
 
 Este proyecto implementa una comunicación IRC (Internet Relay Chat) completamente contenida en Docker, utilizando **InspIRCd** como servidor IRC y **irssi** como cliente. Fue desarrollado como parte de un trabajo académico para comprender el funcionamiento del protocolo IRC y cómo interactúan sus componentes.
 
 ---
 
-## 📑 Tabla de contenido
+##  Tabla de contenido
 
 - [Información general](#información-general)
 - [Tecnologías utilizadas](#tecnologías-utilizadas)
@@ -16,7 +16,7 @@ Este proyecto implementa una comunicación IRC (Internet Relay Chat) completamen
 
 ---
 
-## 📌 Información general
+##  Información general
 
 El objetivo principal del proyecto es levantar un entorno IRC funcional entre un cliente y un servidor utilizando contenedores Docker. El cliente y el servidor se comunican a través de la red local mediante el protocolo IRC, con el fin de enviar y recibir mensajes dentro de un canal común.
 
@@ -29,7 +29,7 @@ El objetivo principal del proyecto es levantar un entorno IRC funcional entre un
 
 ---
 
-## ⚙️ Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 - Docker 24.0+
 - InspIRCd (Servidor IRC)
@@ -39,7 +39,7 @@ El objetivo principal del proyecto es levantar un entorno IRC funcional entre un
 
 ---
 
-## 🛠️ Instalación del servidor IRC
+##  Instalación del servidor IRC
 
 Ejecuta el siguiente comando para crear y ejecutar el servidor IRC con InspIRCd:
 
@@ -55,7 +55,7 @@ docker start irc-server
 
 ---
 
-## 💬 Instalación y uso del cliente IRC
+##  Instalación y uso del cliente IRC
 
 Ejecutar el cliente IRC `irssi` en un contenedor Docker conectado a la red host:
 
@@ -71,7 +71,7 @@ docker start -ai irc-client
 
 ---
 
-## 🔗 Conexión Cliente-Servidor
+##  Conexión Cliente-Servidor
 
 Para establecer conexión con el servidor, asegúrate de conocer la dirección IP del host (donde está corriendo el contenedor del servidor) y el puerto (6667).
 
@@ -84,17 +84,14 @@ Dentro de irssi, usar los siguientes comandos:
 /msg #test message
 ```
 
-📌 **Nota**: Reemplazar `192.168.100.9` con la IP real de tu servidor si es distinta.
+Reemplazar `192.168.100.9` con la IP real de tu servidor si es distinta.
 
 ---
 
-## 📈 Estado del proyecto
 
-El proyecto está: **Finalizado**
 
----
 
-## 👥 Autores
+## Autores
 
 - Felipe Cuevas  
 - Ignacio Antiguay
